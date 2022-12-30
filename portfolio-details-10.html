@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Indoor Cloud</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly - v4.8.1
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <!-- <div class="swiper-slide">
+                        <video width = "854" height = "480" controls>
+                          <source src="assets/img/porfolio/cloudDemo.mp4" type = "video/mp4">
+                          </video>
+                          <embed src="assets/img/porfolio/cloudDemo.mp4" autostart="true" height="480" width="854" /></embed>
+                    </div> -->
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-10-1.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-10-2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-10-3.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-10-4.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-10-5.jpg" alt="">
+                    </div>
+
+                </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3> Cloud Lighting System/Weather Station</h3>
+              <ul>
+                <li><strong>Category</strong>: Project</li>
+                <li><strong>Members</strong>: Kiran Prakash, Sophie Kenny</li>
+                <li><strong>Project Timeline</strong>: 2 Weeks; December, 2020</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>An indoor cloud lighting system that is responsive to the weather via sensor data</h2>
+              <p>
+                For a school project, our team built a lighting system that reacts to sensor data and lights a WS2811 LED strip. The strip 
+                is constructed within an lantern, designed to look like a cloud. This sytem acts as a weather station and a lighting system with
+                more diffused, natural lighting which indicate the weather outside.
+                
+                The system includes analog sensors with signals divided and inputted in the MSP430 MCU. The MCU interfaces between the sensor
+                circuit, the LED strip, and a simple windows form GUI. A user can manually set a colour or can have the lights react to the weather.
+                Firmware was built to utilized the MCUs ADCs, timers, UART and SPI modules. UART used for communicating with the GUI, and SPI 
+                for the WS2811 ICs. Timers were used for the main operations of the MCU. This involved 1) sending, receiving, and validating
+                packets 2) acquiring values from the ADC and using it to check the type of weather 3) sending indiviual bits to WS2811 via SPI
+                to configure and activate the LED strip 
+
+                This project taught me much about systematically debugging machines. Isolating mechanical, electrical, and programmed elements
+                to try and replicate and isolate the bug. Reducing the firmware back to a working stage, and slowly and purposefully readding 
+                code and ensuring it works as intended. This project also developed my habit to read online documentation and datasheets more
+                rigorously.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

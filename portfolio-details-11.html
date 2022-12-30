@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>2-Axis Gantry Stage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly - v4.8.1
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-top">
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-11-1.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-11-2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-11-3.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/detail-11-4.jpg" alt="">
+                    </div>
+
+                </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>2-Axis Gantry Stage</h3>
+              <ul>
+                <li><strong>Category</strong>: Project</li>
+                <li><strong>Members</strong>: Kiran Prakash, Sophie Kenny</li>
+                <li><strong>Project Timeline</strong>: 3 Weeks; November, 2019</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>A 2-Axis gantry stage with 1 DC motor (w/ encoder) and 1 stepper. Uses a MSP430 MCU.</h2>
+              <p>
+                Designed all of the firmware, GUIs, electronics and assembly of a 2-axis stage to draw lines designed by the user.
+                The GUI was a Windows form that took user input for coordinates and and outputted plots of the velocity and position 
+                of the motors. The GUI also communicated with the stage's MCU (MSP430) via UART.
+
+                <br /><br />The firmware contains all the control for the stage. It utilized timers and the UART module to record the encoder counts,
+                communicate with the GUI, process packets, and to actually operate the motor and control its kinematics. One such control
+                is to assure the motors move at the correct speeds given the orientation of the lines drawn. Additionally, a simple
+                proportional controller was implemented to ensure the segments were of correct length and orientation.
+                
+                <br /><br />The electronic components were assembled manually and I had much practice soldering ICs with just an iron.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
